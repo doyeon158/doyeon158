@@ -1,54 +1,85 @@
-# 김도연 | Data Analyst & AI Developer
+# 김도연 | LLM & AI Application Engineer
 
-📍 수원, 대한민국  
+📍 서울, 대한민국  
 📧 kdy991201@naver.com  
 🔗 [GitHub](https://github.com/doyeon158) | [LeetCode](https://leetcode.com/doyeon158)
 
 ---
 
 ## 🎯 Profile
-산업공학 전공을 기반으로 데이터 분석과 AI 프로젝트를 수행한 신입 개발자입니다.  
-데이터를 통해 문제를 재정의하고, 실행 가능한 전략으로 연결하는 것을 목표로 합니다.  
-머신러닝/딥러닝, LLM, RAG 파이프라인 등 최신 기술을 학습하며 실제 서비스 구현까지 경험했습니다.  
+LLM 기반 AI 서비스를 설계하고 구현하는 AI Application Engineer입니다.
+
+RAG(Retrieval-Augmented Generation) 파이프라인 설계, 하이브리드 검색, 모델 성능 평가 및 최적화 경험을 바탕으로 실제 서비스에 적용 가능한 생성형 AI 시스템을 개발했습니다.
+
+단순히 모델을 사용하는 데 그치지 않고, 문제를 분석하여 적합한 아키텍처를 설계하고, 다양한 모델과 검색 전략을 실험·평가하여 최적의 구성을 도출하는 엔지니어링을 지향합니다.
 
 ---
 
 ## 📊 활동 & 통계
 ![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=doyeon158&theme=github-compact)
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sgeems)](https://solved.ac/sgeems) 
-[![LeetCode stats](https://leetcard.jacoblin.cool/doyeon158?theme=light&font=Karma&ext=heatmap)](https://leetcode.com/doyeon158)
-
 ---
 
 ## 💼 Experience
-**AI 프로젝트 트랙 부트캠프 (2025)**  
-- 학습 로그 데이터 기반 수강생 이탈 예측 모델 개발  
-- Gradient Boosting + SMOTE → Accuracy 90.2%, F1 Score 0.91 달성  
-- 학습 지속률 개선 전략 제안  
 
-**보험 QnA 챗봇 개발 (2025)**  
-- 보험 약관 300+ PDF 크롤링 & 전처리  
-- 벡터DB + RAG 설계 → 정확도 82% → 91% 개선  
-- Docker & AWS 배포로 실제 서비스 구현  
+### AI Software Engineer (2025.10 ~ Present)
 
-**통계데이터 활용대회 우수상 (2024, 통계청)**  
-- 음주운전 사고 데이터 정제 및 클러스터링·랜덤포레스트 분석  
-- 회귀모델(R²=0.77, MAE=9.67)로 사고 건수 예측  
-- 정책 시뮬레이션 설계 → 연간 25억 원 사회적 비용 절감 효과  
+**Hailo-RAG-Engine**
+
+* Hailo NPU 환경을 위한 Hybrid RAG 추론 엔진 설계 및 개발
+* Parent Document Retrieval과 BM25 + Semantic Search 기반 Hybrid Retrieval 구현
+* FastAPI 백엔드와 React 대시보드를 구축하여 실시간 AI 챗봇 서비스 제공
+* LLM Judge 기반 자동 평가 환경 구축 및 모델 성능 비교
+
+**LLM-Lab**
+
+* 임베딩 모델 및 소형 LLM 벤치마크 플랫폼 개발
+* 11개 임베딩 모델의 Recall@K, Precision@K, MRR 자동 평가
+* 생성 모델의 품질, 추론 속도, VRAM 사용량을 비교하는 리더보드 구축
+* 신규 모델 출시 시 즉시 검증 가능한 AI Benchmark 환경 구축
+
+**Helicopter-RAG-Pipeline**
+
+* 항공 정비 문서 기반 Parent Document RAG 파이프라인 개발
+* Query Expansion, Question Decomposition, Multi-turn Orchestrator 설계
+* RAG 성능 자동 평가 및 하이퍼파라미터 탐색 환경 구축
+
+**NL-Command-Engine**
+
+* 자연어를 드론 및 로봇 제어 명령(JSON)으로 변환하는 LLM 엔진 개발
+* Prompt Engineering 및 JSON Schema Validation 구현
+* 시나리오 기반 명령 검증 및 자동 변환 파이프라인 구축
+
 
 ---
 
 # 🛠 Technical Skills
 
-### 💻 프로그래밍 언어
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+### 💻 Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) 
 
-### 🤖 AI / ML
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=dependabot&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge&logo=leaflet&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![HuggingFace](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+### 🤖 LLM & AI Engineering
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) 
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logo=dependabot&logoColor=white) 
+![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge&logo=leaflet&logoColor=white) 
 
-### 📝 LLM / NLP
-![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white) ![Qwen3](https://img.shields.io/badge/Qwen3-0088CC?style=for-the-badge&logo=alibabacloud&logoColor=white) ![LLaMA](https://img.shields.io/badge/LLaMA-000000?style=for-the-badge&logo=meta&logoColor=white) ![LoRA](https://img.shields.io/badge/LoRA%20Fine--tuning-FF007F?style=for-the-badge&logo=kalilinux&logoColor=white) ![RAG](https://img.shields.io/badge/RAG%20(LangChain%2C%20FAISS%2C%20ChromaDB)-00A67E?style=for-the-badge&logo=chainlink&logoColor=white) ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF4500?style=for-the-badge&logo=hackaday&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) 
+
+### 📝 LLM & AI Engineering
+![RAG](https://img.shields.io/badge/RAG%20(LangChain%2C%20FAISS%2C%20ChromaDB)-00A67E?style=for-the-badge&logo=chainlink&logoColor=white) 
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF4500?style=for-the-badge&logo=hackaday&logoColor=white)
+
+![HuggingFace](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) 
+
+![GPT-4o](https://img.shields.io/badge/GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white) 
+![Qwen3](https://img.shields.io/badge/Qwen3-0088CC?style=for-the-badge&logo=alibabacloud&logoColor=white) 
+![LLaMA](https://img.shields.io/badge/LLaMA-000000?style=for-the-badge&logo=meta&logoColor=white) 
+![LoRA](https://img.shields.io/badge/LoRA%20Fine--tuning-FF007F?style=for-the-badge&logo=kalilinux&logoColor=white) 
+
 
 ### 🖼 멀티모달
 ![BLIP](https://img.shields.io/badge/BLIP%20Model-8A2BE2?style=for-the-badge&logo=opencv&logoColor=white)
