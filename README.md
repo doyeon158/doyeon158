@@ -7,12 +7,7 @@
 ---
 
 ## 🎯 Profile
-GPU·NPU 환경에서 AI 모델을 구동 구현, 성능 측정 및 개선, 모델 최적화 업무를 주로 합니다.
-
----
-
-## 📊 활동 & 통계
-![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=doyeon158&theme=github-compact)
+GPU·NPU 환경에서 AI 모델을 구동 구현, 성능 측정 및 개선, 모델 최적화 업무합니다.
 
 ---
 
@@ -70,5 +65,5 @@ Python · FastAPI · REST API · SSE Streaming · Hugging Face · ChromaDB · FA
 ## 📚 Education
 **아주대학교** – 산업공학과 (2018.03 ~ 2024.02)  
 GPA 3.37 / 4.5  
-
+**AI Camp** - 분석 모델, AI, LLM 개발 부트캠프 (2024.12 ~ 2025.06)
 
