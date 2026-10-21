@@ -1,4 +1,4 @@
-# 김도연 | LLM & AI Application Engineer
+# 김도연 | AI Developer
 
 📍 서울, 대한민국  
 📧 kdy991201@naver.com  
